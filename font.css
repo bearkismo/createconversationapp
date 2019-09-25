@@ -1,0 +1,202 @@
+/* Comienzo de Urls de fuentes de letras */
+
+@font-face {
+  font-family: 'Cooper Black';
+  src: url('../../fonts/COOPBL.TTF');
+}
+
+@font-face {
+  font-family: 'Penguin Attack';
+  src: url('../../fonts/PenguinAttack.ttf');
+}
+
+@font-face {
+  font-family: 'Arial';
+  src: url('../../fonts/arial.ttf');
+}
+
+@font-face {
+  font-family: 'Arial Black';
+  src: url('../../fonts/ariblk.ttf');
+}
+
+@font-face {
+  font-family: 'Arial Rounded MT Bold Regular';
+  src: url('../../fonts/ARLRDBD.TTF');
+}
+
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url('../../fonts/comic.ttf');
+}
+
+@font-face {
+  font-family: 'Verdana';
+  src: url('../../fonts/verdana.ttf');
+}
+
+@font-face {
+  font-family: 'Pusab';
+  src: url('../../fonts/PUSAB.otf');
+}
+
+@font-face {
+  font-family: 'Forte';
+  src: url('../../fonts/FORTE.TTF');
+}
+
+@font-face {
+  font-family: 'Paytone One';
+  src: url('../../fonts/PaytoneOne.ttf');
+}
+
+@font-face {
+  font-family: 'Impact';
+  src: url('../../fonts/impact.ttf');
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src: url('../../fonts/georgia.ttf');
+}
+
+@font-face {
+  font-family: 'Berlin Sans FB';
+  src: url('../../fonts/BRLNSR.TTF');
+}
+
+@font-face {
+  font-family: 'Dimbo Regular';
+  src: url('../../fonts/DimboRegular.otf');
+}
+
+@font-face {
+  font-family: 'Blackadder ITC';
+  src: url('../../fonts/ITCBLKAD.TTF');
+}
+
+@font-face
+{
+font-family: 'Emoji One';
+src: url('../../fonts/emojione-svg.otf');
+}
+
+/* Fin de Urls de fuentes de letras */
+
+font.font-talk-font_Arial-Black
+{   
+font-family: Arial Black;
+}
+
+font.font-talk-font_Cooper-Black
+{   
+font-family: Cooper Black;
+}
+
+font.font-talk-font_Arial
+{   
+font-family: Arial;
+}   
+
+font.font-talk-font_Verdana
+{   
+font-family: Verdana;
+}
+
+font.font-talk-font_Comic-Sans-MS
+{   
+font-family: Comic Sans MS;
+} 
+
+font.font-talk-font_Impact
+{   
+font-family: Impact;
+}
+
+font.font-talk-font_Georgia
+{   
+font-family: Georgia;
+}
+
+font.font-talk-font_Penguin-Attack
+{   
+font-family: Penguin Attack;
+}
+
+font.font-talk-font_Paytone-One
+{   
+font-family: Paytone One;
+}
+
+font.font-talk-font_Dimbo-Regular
+{   
+font-family: Dimbo Regular;
+}
+
+font.font-talk-font_Pusab
+{   
+font-family: Pusab;
+}
+
+font.font-talk-font_Blackadder-ITC
+{   
+font-family: Blackadder ITC;
+}
+
+font.font-talk-font_Arial-Rounded-MT-Bold-Regular
+{   
+font-family: Arial Rounded MT Bold Regular;
+}
+
+
+/* Font Weight Bold */
+
+font.font-talk_font-weight_bold
+{   
+font-weight: bold;
+}  
+
+font.font-talk_font-weight_normal
+{   
+font-weight: normal;
+} 
+
+/* Font Style Italic */
+
+font.font-talk_font-style_italic
+{   
+font-style: italic;
+}
+
+font.font-talk_font-style_normal
+{   
+font-style: normal;
+}
+
+/* Font Text Decoration None */
+
+font.font-talk_text-decoration_none
+{   
+text-decoration: none;
+}
+
+/* Font Text Decoration Underline */
+
+font.font-talk_text-decoration_underline
+{   
+text-decoration: underline;
+}
+
+/* Font Text Decoration Line Through */
+
+font.font-talk_text-decoration_line-through
+{   
+text-decoration: line-through;
+}
+
+/* Font Text Decoration Overline */
+
+font.font-talk_text-decoration_overline
+{   
+text-decoration: overline;
+}
