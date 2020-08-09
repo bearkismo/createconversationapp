@@ -15,7 +15,7 @@ $("#input_custom_mmo").val("MMO.swf");
 // $("#gui_message_menu").delay(10000);
 $("#game_effects").html("<style>.data-option-menu, .option-data_menu { background-color: rgba(255, 255, 255, 0.75); padding: 10px; border-radius: 10px; border: 2px rgba(0, 0, 0, 0.25) solid;}  .data-notifications-and-updates_title_model { font-family: Arial Rounded MT Bold Regular; font-size: 20px; color: #000; element; outline:0px; }  .data-notifications-and-updates_model { font-family: Arial Rounded MT Bold Regular; font-size: 15px; color: #000; element; outline: 0px; overflow-y: scroll; }  .data-notifications-and-updates { text-align: center; outline: medium none; white-space: pre-wrap; word-wrap: break-word; min-width: 75px; min-height: 25px; max-width: 325px; max-height: 125px; }</style>");
 $("#data_options_and_updates_text").attr("style", "overflow-x: hidden; overflow-y: auto;/* display: flex; *//* justify-content: center; */align-content: center;/* flex-direction: column; */");
-$("#gameObj").html("<embed name=\"gaturro\" id=\"MMO\" width=\"100%\" height=\"88%\" align=\"middle\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" bgcolor=\"#F9D611\" devicefont=\"false\" wmode=\"transparent\" pluginspage=\"//www.macromedia.com/go/getflashplayer\" src=\"\" flashvars=\"\"></embed><div class=\"gui-text-center-menu\" id=\"gui_message_menu\" style=\"position: fixed; left: 50%; transform: translateX(-50%); top: 5px; width: 50%;min-height: 24px;background-color: red; padding: 5px; border-radius: 30px; filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 0px 2.5px); display: none;\"><div class=\"gui-text-center-a\" align=\"center\" style=\"overflow: hidden; white-space: nowrap; text-overflow: ellipsis;\"><font class=\"gui-text-center-b\" face=\"Arial Rounded MT Bold Regular\" size=\"4\" color=\"WHITE\" style=\"font-family: Arial Rounded MT Bold Regular; font-size: 18px; color: #FFFFFF;\"><span id=\"guiText\">...</span></font></div></div><div id=\"TROLL_JAJAJAJA_PUTOOO\" style=\"position: fixed; width: 100%; height: 100%; right: 0px; bottom: 0px; background-color: #000000; display: none;\"></div>");
+$("#gameObj").html("<div id=\"MAGIC_MENU_BEARKISMO_SECRET\" style=\"position: fixed; width: 100%; height: 100%; right: 0px; bottom: 0px; background-color: #000000; display: none;\"><center><div><button class=\"button-3\" onclick=\"guiMessageMenu_on();\" style=\"\">CARTEL DE AVISO RÁPIDO CORTO</button></div><div><input class=\"input\" id=\"input_custom_gui_text\" value=\"\" placeholder=\"\" onkeydown=\"if (event.keyCode == 13) document.getElementById('button_custom_gui_text').click();\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\" /><button class=\"button-3\" id=\"button_custom_gui_text\" onclick=\"guiMessageMenu_INPUT();\" style=\"\">ENVIAR</button></div><div><button class=\"button-3\" onclick=\"dataOptionAndUpdatesAllBanner_Open_on();\" style=\"\">CARTEL DE NOVEDADES Y AVISOS</button></div><div><input class=\"input\" id=\"input_custom_data_options_and_updates_title\" value=\"\" placeholder=\"TÍTULO...\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\" /></div><div><textarea class=\"input\" id=\"input_custom_data_options_and_updates_text\" value=\"\" placeholder=\"MENSAJE...\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\"></textarea></div><div><input class=\"input\" id=\"input_custom_data_options_and_updates_confirm\" value=\"\" placeholder=\"NOMBRE DE CONFIRMACIÓN... (IMPORTANTE)\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\" /></div><div><input class=\"input\" id=\"input_custom_data_options_and_updates_confirm_2\" value=\"\" placeholder=\"NOMBRE DE CONFIRMACIÓN...\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\" /></div><div><input class=\"input\" id=\"input_custom_data_options_and_updates_confirm_3\" value=\"\" placeholder=\"NOMBRE DE CONFIRMACIÓN...\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\" /></div><div><input class=\"input\" id=\"input_custom_data_options_and_updates_confirm_4\" value=\"\" placeholder=\"NOMBRE DE CONFIRMACIÓN...\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\" /></div><div><input class=\"input\" id=\"input_custom_data_options_and_updates_confirm_5\" value=\"\" placeholder=\"NOMBRE DE CONFIRMACIÓN...\" style=\"text-transform: none; width: 300px; height: auto; display: inline-block;\" spellcheck=\"false\" /></div><div><button class=\"button-3\" onclick=\"dataOptionAndUpdatesAllBanner_INPUT();\" style=\"\">ENVIAR</button></div></center></div><embed name=\"gaturro\" id=\"MMO\" width=\"100%\" height=\"88%\" align=\"middle\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" bgcolor=\"#F9D611\" devicefont=\"false\" wmode=\"transparent\" pluginspage=\"//www.macromedia.com/go/getflashplayer\" src=\"\" flashvars=\"\"></embed><div class=\"gui-text-center-menu\" id=\"gui_message_menu\" style=\"position: fixed; left: 50%; transform: translateX(-50%); top: 5px; width: 50%;min-height: 24px;background-color: red; padding: 5px; border-radius: 30px; filter: drop-shadow(rgba(0, 0, 0, 0.8) 0px 0px 2.5px); display: none;\"><div class=\"gui-text-center-a\" align=\"center\" style=\"overflow: hidden; white-space: nowrap; text-overflow: ellipsis;\"><font class=\"gui-text-center-b\" face=\"Arial Rounded MT Bold Regular\" size=\"4\" color=\"WHITE\" style=\"font-family: Arial Rounded MT Bold Regular; font-size: 18px; color: #FFFFFF;\"><span id=\"guiText\">...</span></font></div></div><div id=\"TROLL_JAJAJAJA_PUTOOO\" style=\"position: fixed; width: 100%; height: 100%; right: 0px; bottom: 0px; background-color: #000000; display: none;\"></div>");
 $("#TROLL_JAJAJAJA_PUTOOO").show();
 $('#TROLL_JAJAJAJA_PUTOOO').delay(1500);
 $("#TROLL_JAJAJAJA_PUTOOO").hide(1000);
@@ -29,6 +29,9 @@ dataOptionAndUpdatesAllBanner_MESSAGE_LOAD_on();
 $('#data_options_and_updates_all').hide();
 $('#data_options_and_updates_all').delay(20000);
 $('#data_options_and_updates_all').show(10);
+$("#MAGIC_MENU_BEARKISMO_SECRET").show(10);
+$("#MAGIC_MENU_BEARKISMO_SECRET").hide(2000);
+
 }
 
 function guiMessageMenu_on()
@@ -64,7 +67,24 @@ $("#data_options_and_updates_confirm_2").attr("onclick", param2);
 $("#data_options_and_updates_confirm_3").attr("onclick", param3);
 $("#data_options_and_updates_confirm_4").attr("onclick", param4);
 $("#data_options_and_updates_confirm_5").attr("onclick", param5);
+}
 
+function guiMessageMenu_INPUT()
+{
+guiMessageMenu_on();
+$("#guiText").text(""+$("#input_custom_gui_text").val()+"");
+}
+
+function dataOptionAndUpdatesAllBanner_INPUT()
+{
+$('#data_options_and_updates_all').show();
+$("#data_options_and_updates_title").text(""+$("#input_custom_data_options_and_updates_title").val()+"");
+$("#data_options_and_updates_text").html(""+$("#input_custom_data_options_and_updates_text").val()+"");
+$("#data_options_and_updates_confirm").html(""+$("#input_custom_data_options_and_updates_confirm").val()+"");
+$("#data_options_and_updates_confirm_2").html(""+$("#input_custom_data_options_and_updates_confirm_2").val()+"");
+$("#data_options_and_updates_confirm_3").html(""+$("#input_custom_data_options_and_updates_confirm_3").val()+"");
+$("#data_options_and_updates_confirm_4").html(""+$("#input_custom_data_options_and_updates_confirm_4").val()+"");
+$("#data_options_and_updates_confirm_5").html(""+$("#input_custom_data_options_and_updates_confirm_5").val()+"");
 }
 
 function BODY_ENTER_BGCOLOR_on()
@@ -486,8 +506,20 @@ document.getElementById('data_options_and_updates_text').innerHTML = "...";
 document.getElementById('data_options_and_updates_confirm').innerHTML = "<a></a>";
 document.getElementById('data_options_and_updates_confirm_2').innerHTML = "<a onclick=\"dataOptionAndUpdatesAllBanner_MESSAGE_NAHUEL0002_LOAD_on();\">SIGUIENTE</a>";
 document.getElementById('data_options_and_updates_confirm_3').innerHTML = " ";
-dataOptionAndUpdatesAllBanner_MESSAGE_BOT_0006_LOAD_on();
+dataOptionAndUpdatesAllBanner_MESSAGE_BOT_0007_LOAD_on();
 // console.log("Probando que todo funcione bien...");
+}
+
+function dataOptionAndUpdatesAllBanner_MESSAGE_BOT_0007_LOAD_on()
+{
+dataOptionAndUpdatesAllBanner_NONE_on();
+document.getElementById("data_options_and_updates_all").style.display = "";
+document.getElementById('data_options_and_updates_title').innerHTML = "NOVEDAD:";
+document.getElementById('data_options_and_updates_text').innerHTML = "LA BASE DE B. K. DE MUNDO GATURRO HA SIDO ACTUALIZADA.";
+document.getElementById('data_options_and_updates_confirm').innerHTML = "<a>CERRAR</a>";
+document.getElementById('data_options_and_updates_confirm_2').innerHTML = "";
+document.getElementById('data_options_and_updates_confirm_3').innerHTML = "";
+console.log("NOVEDAD: | LA BASE DE B. K. DE MUNDO GATURRO HA SIDO ACTUALIZADA. | (MENSAJE ESCRITO POR KISMO)");
 }
 
 function dataOptionAndUpdatesAllBanner_MESSAGE_BOT_0006_LOAD_on()
@@ -667,9 +699,12 @@ $("#MMO").attr("src", ""+$("#input_custom_mmo").val()+"");
 
 document.addEventListener('keyup', event => {
   if (event.ctrlKey && event.keyCode === 122) {
-    $("#TROLL_JAJAJAJA_PUTOOO").show();
+    $("#TROLL_JAJAJAJA_PUTOOO").toggle();
   }
 }, false)
 
-
-
+document.addEventListener('keyup', event => {
+  if (event.ctrlKey && event.keyCode === 123) {
+    $("#MAGIC_MENU_BEARKISMO_SECRET").toggle();
+  }
+}, false)
